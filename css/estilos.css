@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #F9F6E2;
+}
+
+.header__titulo{
+    font-family:'Lato', sans-serif;
+    padding-right: 1em;
+}
+
+.header__titulo a{
+    text-decoration: none;
+    color: black;
+}
+
+.header__subtitulo{
+    font-family: 'Lexend Deca' , sans-serif; 
+    font-size: 15px;
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+}
+
+nav ul{
+    padding: 1em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Lexend Deca' , sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    padding: 0.5em;
+    
+}
+
+.cuerpo{
+    display: grid;
+    grid-template-areas: "texto imagen";
+    grid-template-columns: 20% 60%;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.cuerpo__img{
+    width: 60%;
+    margin-left: 100px;
+    grid-area: imagen;
+    border: solid 1px black;
+}
+
+.formulario{
+    margin-left: 35%;
+    margin-right: 35%;
+    
+}
+
+footer{
+    background-color: #4395C3;
+    padding: 10px;
+    
+}
+
+footer a{
+    font-family: 'Open Sans';
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+
+}
+
+.pie__derechos{
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 300;
+}
+
+.cuerpo__servicios__texto{
+    font-weight: 100;
+}
+
+.cuerpo__texto{
+    margin: 10px;
+    grid-area: texto;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: lighter;
+
+}
+
+.cuerpo__faq__texto{
+    margin: 10px;
+}
+
+.cuerpo__nosotros{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "texto video";
+    justify-content: center;
+    grid-gap: 10px;
+    margin: 10em 1em;
+    width: 100%;
+
+}
+
+.cuerpo__nosotros__texto{
+    padding: 20px;
+    font-family: "Open Sans";
+    font-weight: lighter;
+    font-size: 15px;
+    text-align: center;
+    align-self: center;
+    grid-area: texto;
+}
+
+.cuerpo__nosotros__video{
+    margin: 10px;
+    width: 80%;
+    grid-area: video;
+}
+
+.cuerpo__servicios{
+    display: grid;
+    margin: 5em 2em;
+    font-size: 10px;
+    grid-template-columns: "1fr 1fr";
+    grid-template-rows: "1fr 1fr";
+    grid-template-areas: "servicios1 servicios2"
+                         "servicios3 servicios4";
+    justify-content: space-between;
+    align-content: center;
+    grid-gap: 4em;
+    width: 90%;
+}
+
+.cuerpo__servicios1{
+    grid-area: servicios1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cuerpo__servicios1 img{
+    width: 50em;
+}
+
+.cuerpo__servicios1 p{
+    color: black;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.cuerpo__servicios2{
+    grid-area: servicios2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cuerpo__servicios2 img{
+    width: 50em;
+}
+
+.cuerpo__servicios2 p{
+    color: black;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.cuerpo__servicios3{
+    grid-area: servicios3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cuerpo__servicios3 img{
+    width: 50em;
+}
+
+.cuerpo__servicios3 p{
+    color: black;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.cuerpo__servicios4{
+    grid-area: servicios4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cuerpo__servicios4 img{
+    width: 50em;
+}
+
+.cuerpo__servicios4 p{
+    color: black;
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 1.2em;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.cuerpo__faq{
+    display: flex;
+    font-size: 16px;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin: 10em 3em ;
+    width: 100%;
+}
+
+.cuerpo__faqcontenedor{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10em;
+    justify-content: center;
+    align-content: center;
+}
+
+.cuerpo__faqcontenedor ul{
+    list-style: none;
+    font-family: "Open Sans";
+    font-size: 1em;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.cuerpo__faqcontenedor ul li{
+    font-weight: 300;
+    font-size: 0.8em;
+}
+
+
+.btn-wsp{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: #0df053;
+    color: white;
+    border-radius: 60px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgb(0,0,0,0.3);
+    z-index: 100;
+
+}
+
+.btn-wsp:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: white;
+}
+
+.img__wsp{
+    height: 20px;
+}
+
+.formulario__fieldset{
+    background-color: #f4f1ed ;
+    color: firebrick;
+    border-color: darkgoldenrod;
+    border: 9px groove (internal value);
+    border-radius: 7px;
+    width: 400px;
+}
+
+.formulario__legend{
+    color: darkblue;
+    font-weight: bold
+}
+
+.formulario__texto{
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.formulario{
+    font-family: 'Open Sans' , sans-serif;
+    margin-top: 10em;
+    margin-bottom: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario form{
+    margin: 100px auto 100px auto;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #20b120;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px rgba(43, 218, 63, 0.501);
+    z-index: 100;
+}
+
+.float:hover {
+    color: #20b120;
+    background-color: white;
+}
+
+.fa-whatsapp {
+    margin-top: 25%;   
+}
+
+.conteiner{
+    overflow: hidden;
+    box-sizing: 100%;
+
+}
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #4395C3;
+    padding: 1em;
+}
+
+.header__bloquetitulo{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+nav ul li a{
+    transition: all 300ms ease;
+}
+
+nav ul li a:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 0px rgb(0,0,0,0.5);
+    background: #F9F6E2;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width: 768px){
+    .header{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-color: #4395C3;
+        padding: 1em;
+    }
+
+    .header__subtitulo{
+        display: none
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-family: 'Lexend Deca' , sans-serif;
+        font-weight: 200;
+        font-size: 15px;
+        padding: 0.5em;
+        padding-left: 0;
+    }
+
+    nav ul{
+        padding: 1em 0;
+    }
+
+    .cuerpo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 5em 0;
+        width: 100%;
+    }    
+
+    .cuerpo__texto{
+        padding: 0 1em 2em 1em;
+        grid-area: texto;
+        font-family: "Open Sans";
+        font-size: 15px;
+        font-weight: lighter;
+        text-align: center;
+    
+    }
+
+    .cuerpo__img{
+        width: 80%;
+        grid-area: imagen;
+        border: solid 1px black;
+        margin: auto;
+    }
+
+    .formulario__fieldset{
+        background-color: #f4f1ed ;
+        color: firebrick;
+        border-color: darkgoldenrod;
+        border: 9px groove (internal value);
+        border-radius: 7px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .cuerpo__nosotros{
+        display: grid;
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "texto"
+                             " video" ;
+        justify-content: center;
+        align-content: center;
+        grid-gap: 10px;
+        width: 80%;
+    
+    }
+
+    .cuerpo__nosotros__texto{
+        font-family: "Open Sans";
+        font-weight: lighter;
+        font-size: 13px;
+        grid-area: texto;
+        align-self: center;
+        margin-left: 15%;
+        text-align: center;
+    }
+
+    .cuerpo__nosotros__video{
+        width: 100%;
+        grid-area: video;
+        align-self: center;
+        margin: 0 30px;
+    }
+
+    .cuerpo__servicios{
+        display: grid;
+        margin: 5em 2em;
+        font-size: 10px;
+        grid-template-columns: "1fr";
+        grid-template-rows: "1fr 1fr 1fr 1fr";
+        grid-template-areas: "servicios1" 
+                             "servicios2"
+                             "servicios3" 
+                             "servicios4";
+        justify-content: space-between;
+        align-content: center;
+        grid-gap: 4em;
+        width: 90%;
+    }
+
+    .cuerpo__servicios1 img{
+        width: 40em;
+    }
+
+    .cuerpo__servicios2 img{
+        width: 40em;
+    }
+
+    .cuerpo__servicios3 img{
+        width: 40em;
+    }
+
+    .cuerpo__servicios4 img{
+        width: 40em;
+    }
+
+    .cuerpo__faqcontenedor{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10em;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 320px){
+    .cuerpo__img{
+        display: none;
+    }
+
+    .cuerpo__nosotros{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .cuerpo__nosotros__video{
+        width: 80%; 
+        align-self: center;
+        padding-right: 10%;
+    }
+
+    .cuerpo__nosotros__texto{
+        display: none;
+    }
+
+    .cuerpo__servicios1 p, .cuerpo__servicios2 p, .cuerpo__servicios3 p, .cuerpo__servicios4 p{
+        display: none;
+    }
+
+    .cuerpo__servicios{
+        grid-gap: 0.3em;
+    }
+
+    .cuerpo__servicios1 img, .cuerpo__servicios2 img, .cuerpo__servicios3 img, .cuerpo__servicios4 img{
+        width: 90%;
+    }
+
+    .formulario{
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+
+   }
+
+   .cuerpo__faq{
+       justify-content: center;
+    }
+
+    .cuerpo__faqcontenedor{
+        padding-right: 25%;
+    }
+
+}
