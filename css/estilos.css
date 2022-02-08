@@ -228,8 +228,7 @@ footer a{
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    margin: 10em 3em ;
-    width: 100%;
+    padding: 10em 2em;
 }
 
 .cuerpo__faqcontenedor{
@@ -508,7 +507,8 @@ nav ul li a:hover{
     .cuerpo__faqcontenedor{
         display: flex;
         flex-direction: row;
-        margin-bottom: 10em;
+        padding: 5em 10em;
+        margin: 0;
         justify-content: center;
     }
 
@@ -551,15 +551,5 @@ nav ul li a:hover{
         justify-content: center;
         width: 100%;
         margin: auto;
-
    }
-
-   .cuerpo__faq{
-       justify-content: center;
-    }
-
-    .cuerpo__faqcontenedor{
-        padding-right: 25%;
-    }
-
 }
