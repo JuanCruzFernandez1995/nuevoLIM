@@ -58,12 +58,6 @@ nav ul li a{
     border: solid 1px black;
 }
 
-.formulario{
-    margin-left: 35%;
-    margin-right: 35%;
-    
-}
-
 footer{
     background-color: #4395C3;
     padding: 10px;
@@ -228,15 +222,15 @@ footer a{
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    padding: 10em 2em;
+    padding: 10em 3em;
 }
 
 .cuerpo__faqcontenedor{
     display: flex;
     flex-direction: row;
-    margin-bottom: 10em;
     justify-content: center;
     align-content: center;
+    padding: 10em 3em;
 }
 
 .cuerpo__faqcontenedor ul{
@@ -291,7 +285,8 @@ footer a{
 
 .formulario__legend{
     color: darkblue;
-    font-weight: bold
+    font-weight: bold;
+    text-align: center;
 }
 
 .formulario__texto{
@@ -301,8 +296,7 @@ footer a{
 
 .formulario{
     font-family: 'Open Sans' , sans-serif;
-    margin-top: 10em;
-    margin-bottom: 15em;
+    padding: 5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -508,7 +502,6 @@ nav ul li a:hover{
         display: flex;
         flex-direction: row;
         padding: 10em 5em;
-        margin: 0;
         justify-content: center;
     }
 
@@ -550,6 +543,5 @@ nav ul li a:hover{
     .formulario{
         justify-content: center;
         width: 100%;
-        margin: auto;
    }
 }
